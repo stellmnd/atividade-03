@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.name-store{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.name-store spam{
+  color: blue;
+}
+
+
+.collapse{
+  display: flex;
+  justify-content: center;
+}
+
+.sub-navbar{
+  gap: 180px;
+}
+
+.product h2{
+  display: flex;
+  justify-content: center;
+}
+
+.product a {
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+}
