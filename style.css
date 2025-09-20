@@ -1,42 +1,59 @@
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.name-store{
+
+body h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* HERO  */
+.name-store {
   display: flex;
   justify-content: center;
   padding: 30px;
 }
-.name-store spam{
+
+.name-store spam {
   color: blue;
 }
 
-
-.collapse{
+/* SUB NAVBAR*/
+.collapse {
   display: flex;
   justify-content: center;
 }
 
-.sub-navbar{
-  gap: 180px;
-}
 
-.product h2{
+/* PRODUTOS / CATEGORIAS */
+.product h2 {
   display: flex;
   justify-content: center;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
 }
 
 .product a {
   display: flex;
   justify-content: center;
+  font-size: 1.8rem;
+  color: black;
+  margin: 10px;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
   align-self: center;
+}
+
+footer h5 {
+  font-size: 1.7rem;
 }
